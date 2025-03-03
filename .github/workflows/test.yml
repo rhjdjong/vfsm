@@ -89,9 +89,9 @@ jobs:
       - name: Make badge
         uses: schneegans/dynamic-badges-action@v1.7.0
         with:
-          auth: ${{ secrets.GIST_SECRET }}
-          gistID: 12a0c0616d67fc2b8b9cda9eda30be5d
-          filename: {{ cookiecutter.__project_slug }}_coverage.svg
+          auth: ${{ secrets.VFSM_GIST_SECRET }}
+          gistID: cfe9237f0bb1a5b9f858c9744c360d9f
+          filename: vfsm_coverage.svg
           label: Coverage
           message: ${{ env.total }} %
           minColorRange: 50
