@@ -8,5 +8,5 @@ from semantic_version_check import version_check
 
 
 def test_version() -> None:
-    __version__ = version("sliplib")
+    __version__ = version("vfsm")
     assert version_check(__version__)
