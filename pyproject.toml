@@ -24,7 +24,7 @@ dependencies = []
 "Source code" = "https://github.com/rhjdjong/vfsm"
 
 [tool.hatch.version]
-path = "vfsm/__init__.py"
+path = "VERSION"
 
 [tool.hatch.build.targets]
 packages = ["src/vfsm"]
